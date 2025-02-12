@@ -1,3 +1,23 @@
+/* 
+N = 5, the pattern should look like as below:
+
+
+
+A
+
+BB
+
+CCC
+
+DDDD
+
+EEEEE
+
+
+
+
+*/
+
 function printPattern(n) {
   let asciiValue = 65;
   for (let i = 1; i <= n; i++) {
