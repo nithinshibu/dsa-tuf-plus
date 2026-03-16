@@ -86,7 +86,7 @@ revNum > int.MaxValue / 10
 
 then multiplying by 10 will definitely overflow.
 
-Step 5 — Why Divide by 10?
+Why Divide by 10?
 
 Because we want to know the largest safe number before multiplying by 10.
 
