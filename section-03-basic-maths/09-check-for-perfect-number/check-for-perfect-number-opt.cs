@@ -54,3 +54,29 @@ public class Program {
         }
     }
 }
+
+/*
+
+Divisors always come in pairs
+
+Example:
+
+n = 36
+
+Divisors:
+1 × 36
+2 × 18
+3 × 12
+4 × 9
+6 × 6
+
+Notice:
+
+If i is a divisor → n / i is also a divisor
+
+eg: 2 x 18 = 36 , n= 36 & i = 2 , so (n/i) = 18    (36/2=18)
+
+So we get 2 divisors ( 2 and 18 ) in one go
+
+*/
+
