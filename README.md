@@ -20,17 +20,13 @@ efficient?
 
 Complexity Name Intuition
 
----
-
-O(1) Constant Always same time (best case)
-O(log n) Logarithmic Reduces problem size each step
-O(n) Linear Goes through all elements once
-O(n log n) Linearithmic Efficient sorting
-O(n²) Quadratic Nested loops
-O(2ⁿ) Exponential Tries all possibilities
-O(n!) Factorial Permutations (very slow)
-
----
+- O(1) → Constant → Always same time (best case)
+- O(log n) → Logarithmic → Reduces problem size each step
+- O(n) → Linear → Goes through all elements once
+- O(n log n) → Linearithmic → Efficient sorting
+- O(n²) → Quadratic → Nested loops
+- O(2ⁿ) → Exponential → Tries all possibilities
+- O(n!) → Factorial → Permutations (very slow)
 
 ## 🧠 Understanding Each Complexity
 
