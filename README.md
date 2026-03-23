@@ -70,38 +70,38 @@ Recursion with branching (subsets)
 
 ## ⚡ Problem Solving Approach
 
-1.  Understand the problem\
-2.  Start with brute force\
-3.  Identify pattern\
-4.  Optimize\
+1.  Understand the problem
+2.  Start with brute force
+3.  Identify pattern
+4.  Optimize
 5.  Analyze complexity
 
 ---
 
 ## 🧠 Important Tips
 
-- Reduce O(n²) → O(n) where possible\
-- Use HashMap for faster lookup\
-- Practice patterns, not solutions\
+- Reduce O(n²) → O(n) where possible
+- Use HashMap for faster lookup
+- Practice patterns, not solutions
 - Dry run your code
 
 ---
 
 ## ⚠️ Common Mistakes
 
-- Ignoring edge cases\
-- Not checking constraints\
+- Ignoring edge cases
+- Not checking constraints
 - Overcomplicating simple problems
 
 ---
 
 ## 📌 Quick Cheatsheet
 
-- Sorted array → Binary Search\
-- Subarray → Sliding Window\
-- Pairs → Two Pointers\
-- Frequency → HashMap\
-- Combinations → Backtracking\
+- Sorted array → Binary Search
+- Subarray → Sliding Window
+- Pairs → Two Pointers
+- Frequency → HashMap
+- Combinations → Backtracking
 - Optimization → DP
 
 ---
@@ -110,5 +110,5 @@ Recursion with branching (subsets)
 
 DSA is about recognizing patterns, not memorizing.
 
-That's a wrap 🎯\
+That's a wrap 🎯
 If this helped you, ⭐ Star the repo or bookmark it!
