@@ -114,6 +114,12 @@ You don't need to check all elements
 for i in range(2, int(n**0.5) + 1):
 ```
 
+````csharp
+for (int i = 2; i * i <= n; i++)
+{
+    // check if n % i == 0
+}
+
 ## 📊 Growth
 
 - n = 1,000,000 → ~1,000 steps
@@ -139,7 +145,7 @@ You must visit every element
 ```python
 for i in arr:
     print(i)
-```
+````
 
 ## 📊 Growth
 
