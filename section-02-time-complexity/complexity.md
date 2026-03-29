@@ -274,6 +274,3 @@ it's about **recognizing patterns in problems**.
 > The more problems you solve, the faster you identify complexity.
 
 ---
-
-That’s a wrap 🎯
-If this helped you, ❤️ Retweet or bookmark this for later.
