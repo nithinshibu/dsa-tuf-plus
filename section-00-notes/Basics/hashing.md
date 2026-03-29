@@ -1,12 +1,5 @@
-Got it — that feedback is valid 👍
-You want **clean, self-contained notes** (no references like “your notes”), written in **simple, interview-ready language**.
-
-Here’s a much clearer and structured version 👇
-
 ---
-
 # 📘 Hashing — Clean & Simple Notes for DSA (C#)
-
 ---
 
 # 🔹 What is Hashing?
