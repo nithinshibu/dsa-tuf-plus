@@ -23,7 +23,7 @@ public class Solution {
                 /* Add the counterpart divisor
                 if it's different from i and
                 if it is not n itself */
-                if (i != 1 && (long)i * i != n) {
+                if (i != 1 && i != n/i) {
                     sum = sum + (n / i);
                 }
             }
