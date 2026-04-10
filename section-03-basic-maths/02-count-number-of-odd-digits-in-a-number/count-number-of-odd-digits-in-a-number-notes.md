@@ -124,16 +124,19 @@ Why?
 
 ## ⚖️ Why This Approach?
 
-Approach Idea Time
+To count odd digits, we have 2 options:
+
+1. Convert number to string → check each character
+2. Use math → extract digits using `% 10`
 
 ---
 
-String conversion Convert number to string O(n) extra space
-Mathematical (this) Use % and / ✅ Best
+### Comparison
 
-👉 This is the **most optimal and preferred approach**
+- String method → easy but uses extra space
+- Math method → efficient and no extra space
 
----
+👉 **Best choice:** Mathematical approach (used in interviews)
 
 ## 🎯 Interview Explanation (How to Say It)
 
