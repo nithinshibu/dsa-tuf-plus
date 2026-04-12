@@ -27,16 +27,3 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        int n = 6678;
-        int k = 3;
-
-        Solution sol = new Solution();
-        int ans = sol.LargestDigitDivisibleByK(n, k);
-
-        Console.WriteLine("Largest digit divisible by k: " + ans);
-    }
-}
