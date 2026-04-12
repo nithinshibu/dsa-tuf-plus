@@ -57,24 +57,7 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        // Input array
-        int[] nums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-        /* Creating an instance of
-        Solution class */
-        Solution sol = new Solution();
-
-        /* Function call to get the
-        highest occurring element in array n */
-        int ans = sol.mostFrequentElement(nums);
-
-        Console.WriteLine($"The highest occurring element in the array is: {ans}");
-    }
-}
 
 
 /* 
