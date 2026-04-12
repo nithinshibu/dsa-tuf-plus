@@ -1,3 +1,4 @@
+using System.Linq;
 public class Solution
 {
     public List<char> FrequencySort(string s)
