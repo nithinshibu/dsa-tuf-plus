@@ -13,8 +13,8 @@ public class Program
                 // Compare each element with the next one
                 if (arr[i] > arr[i + 1])
                 {
-                /* If any element is greater than the next one,
-                the array is not sorted */
+                    /* If any element is greater than the next one,
+                    the array is not sorted */
                     return false;
                 }
             }
@@ -24,25 +24,6 @@ public class Program
         }
     }
 
-    public static void Main(string[] args)
-    {
-        // Driver code
-        // Creating an instance of solution class
-        Solution solution = new Solution();
-        int[] arr = {1, 2, 3, 4, 5};
-        int n = arr.Length;
-
-        // Function call to check if the array is sorted
-        bool sorted = solution.arraySortedOrNot(arr, n);
-        if (sorted)
-        {
-            Console.WriteLine("Array is sorted.");
-        }
-        else
-        {
-            Console.WriteLine("Array is not sorted.");
-        }
-    }
 }
 
 /* 
