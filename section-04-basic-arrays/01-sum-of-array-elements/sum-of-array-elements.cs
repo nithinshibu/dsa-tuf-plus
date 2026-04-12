@@ -19,24 +19,7 @@ public class Solution
     }
 }
 
-// Main class
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        int n = 4;
-        int[] arr = { 1, 2, 3, 8 };
 
-        // Creating an instance of solution class
-        Solution sol = new Solution();
-
-        // Function call to get the sum of array elements
-        int result = sol.sum(arr, n);
-
-        // output the result
-        Console.WriteLine("The sum of array elements is: " + result);
-    }
-}
 
 
 /* 
