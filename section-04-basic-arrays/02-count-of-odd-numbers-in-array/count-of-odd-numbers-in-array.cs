@@ -19,20 +19,7 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
-        int[] arr = { 1, 2, 3, 4, 5 };
-        int n = arr.Length;
 
-        // Function to count the odd numbers in an array
-        int count = sol.countOdd(arr, n);
-        Console.WriteLine("Count of odd numbers: " + count);
-    }
-}
 
 
 /* 
