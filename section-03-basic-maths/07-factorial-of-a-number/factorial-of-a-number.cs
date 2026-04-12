@@ -7,8 +7,8 @@ public class Solution
     public int Factorial(int n)
     {
         // Edge case
-        if(n == 0) return 1;
-        
+        if (n == 0) return 1;
+
         // Variable to store the factorial
         int fact = 1;
 
@@ -18,25 +18,9 @@ public class Solution
             // Multiply fact with current number
             fact = fact * i;
         }
-        
+
         // Return the factorial stored
         return fact;
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        // Input number
-        int n = 4;
-
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
-
-        // Function call to find the factorial of n
-        int ans = sol.Factorial(n);
-
-        Console.WriteLine("The factorial of given number is: " + ans);
-    }
-}
