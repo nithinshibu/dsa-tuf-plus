@@ -30,26 +30,3 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        // Read input from console
-        Console.Write("Enter a non-negative integer: ");
-        if (int.TryParse(Console.ReadLine(), out int n))
-        {
-            /* Creating an instance of 
-            Solution class */
-            Solution sol = new Solution();
-
-            // Function call to find the largest digit in n
-            int ans = sol.LargestDigit(n);
-
-            Console.WriteLine("The largest digit in the number is: " + ans);
-        }
-        else
-        {
-            Console.WriteLine("Invalid input. Please enter a valid integer.");
-        }
-    }
-}
